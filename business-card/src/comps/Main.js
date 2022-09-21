@@ -24,6 +24,6 @@ function Main() {
           <Footer />
         </p>
     </div>
-  )
+  ) 
 }
 export default Main 

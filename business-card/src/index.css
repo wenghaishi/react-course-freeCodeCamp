@@ -14,20 +14,20 @@ code {
 }
 
 .picture {
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   position: absolute;
   width: 317px;
   height: 317px;
-  left: 116px;
+  left: 40px;
   top: 44px;
 
 }
 
 .Main {
-  position: absolute;
+position: absolute;
 width: 317px;
 height: 399px;
-left: 116px;
+left: 40px;
 top: 361px;
 background: #1A1B21;
 }
