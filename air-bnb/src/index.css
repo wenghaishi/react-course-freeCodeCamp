@@ -3,11 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  overflow-x: hidden;
 }
 
 section {
@@ -29,8 +25,72 @@ nav {
 
 .hero-title {
   font-family: 'Poppins';
-  font-style: normal;
+  font-style: Bold;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 60px;
   line-height: 110%;
+}
+
+.hero-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 110%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 20px;
+  max-width: 97%;
+  height: auto;
+  overflow: hidden;
+  width: fit-content;
+
+}
+
+.card-single {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+
+}
+
+.card-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 1%;
+  font-size: small;
+}
+
+
+
+.card-star {
+  width: 25px;
+  height: 25px;
+  padding-top: 23px;
+  padding-left: 8px;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 110%;
+}
+
+.card-image {
+  display: flex;
+  flex-direction: column;
+  height:auto;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
 }

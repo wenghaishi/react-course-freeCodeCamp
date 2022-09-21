@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import Button2 from './Button2'
-import Footer from '../comps/Footer';
+import Footer from './Footer'
 
 
 function Main() {
