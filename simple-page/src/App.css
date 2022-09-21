@@ -37,6 +37,16 @@
   }
 }
 
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282D35;
+  background-image: url(../public/logo512.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -64,4 +74,31 @@ nav {
 .nnav--ico {
   height: 30px;
   margin-right: 7px;
+}
+
+.App-main {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+}
+
+.Main-list > li {
+  padding-block: 9px;
+}
+
+.Main-list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+
+main {
+
 }
