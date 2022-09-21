@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  background-color: #23252C;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.picture {
+  border-radius: 10px;
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+
+}
+
+.Main {
+  position: absolute;
+width: 317px;
+height: 399px;
+left: 116px;
+top: 361px;
+background: #1A1B21;
+}
+
+.Main-text {
+  color: white;
+}
+
+.Button {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  width: 115px;
+  height: 34px;
+  left: 151px;
+  top: 468px;
+
+  /* white */
+
+  background: #FFFFFF;
+  /* gray/300 */
+
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #D3D3D3;
+}
+
+.Two-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+
+}
+
+.Mail-icon {
+
+  width: 16px;
+  height: 16px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Linkedin-icon {
+  width: 16px;
+  height: 16px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Main-job-title {
+  color: #F3BF99;
+  font-size: medium;
+  padding-bottom: 3%;
+}
+
+.Main-p {
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: small;
+  line-height: 120%;
+  text-align: justify;
+}
+
+.Main-about {
+  font-size: 22px;
+}
+
+.Main-list {
+  padding-right: 13%;
+  line-height: 140%;
+}
+
+.Footer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top:3%;
+}
+
+.Footer-icons {
+  width: 25px;
+  cursor: pointer;
+
+}
+.Footer-icons:hover {
+  background-color: #a9a9a9;
+}
