@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <div className='nav-bar' >
         <img className='nav-icon' src="earthIcon.svg" alt="" />
-        <h1 className='nav-title' >My Travel Journel</h1>
+        <h1 className='nav-title' >My Travel Journal</h1>
     </div>
   )
 }
