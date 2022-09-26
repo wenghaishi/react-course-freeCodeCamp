@@ -57,7 +57,7 @@ nav {
   width: 100%;
   min-height: 100%;
   overflow: hidden;
-
+  
 }
 
 .card-score {
@@ -80,7 +80,7 @@ nav {
 .card-text {
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 110%;
 }
 
@@ -93,4 +93,33 @@ nav {
 .body-content {
   display: flex;
   flex-direction: column;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.button-home {
+  display: flex;
+  align-self: flex-end;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }

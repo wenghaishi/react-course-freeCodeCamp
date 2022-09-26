@@ -1,9 +1,17 @@
 import React from 'react'
+import NavBar from 'NavBar'
+import CardSingle from './CardSingle'
+import { BrowserRouter } from 'react-router-dom';
 
-function Swim() {
+
+function swim() {
   return (
-    <div>swim</div>
-  )
+    <div>
+        <NavBar />
+        <div>
+            <CardSingle />
+        </div>
+    </div>
 }
 
-export default Swim
+export default swim
