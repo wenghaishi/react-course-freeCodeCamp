@@ -3,6 +3,7 @@ import React from 'react'
 function Card(props) {
 
   return (
+    <div>
         <div className='card-main' >
             <img className='card-img' src={props.img} alt="" />
             <div className='card-text' >
@@ -17,6 +18,8 @@ function Card(props) {
                 <h2 className='card-description' >{props.description}</h2>
             </div>
         </div>
+        <img className='card-line' src="line.svg" alt="" />
+    </div>
   )
 }
 
