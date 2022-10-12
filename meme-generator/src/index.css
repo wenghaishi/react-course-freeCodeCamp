@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  gap: 20px;
+
+}
+
+.troll-face {
+  max-height: 72px;
+  animation-name : troll-face;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 0.15s;
+}
+
+@keyframes troll-face{
+  0%{
+    transform: translateY(4px);
+  }
+  100%{
+    transform: translateY(-4px);
+  }
+}
+
+.main-input-box {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 38px;
+
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 32px;
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+}
